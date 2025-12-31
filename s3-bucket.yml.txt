@@ -1,8 +1,0 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Description: Simple S3 bucket created by CloudFormation
-
-Resources:
-  MyDemoBucket:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: !Sub "demo-cf-bucket-${AWS::AccountId}-${AWS::Region}"
