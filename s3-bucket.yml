@@ -3,6 +3,6 @@ Description: Simple S3 bucket for CodePipeline demo
 
 Resources:
   DemoBucket:
-    Type: AWS::S3::Buckett
+    Type: AWS::S3::Bucket
     Properties:
       BucketName: sneha-demo-bucket-12345
